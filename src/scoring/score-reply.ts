@@ -5,7 +5,7 @@ type ScoreInput = {
 const genericPhrases = [
   'great point',
   'this is exactly',
-  'couldn\'t agree more',
+  "couldn't agree more",
   'well said',
   'thanks for sharing',
 ];
@@ -26,4 +26,3 @@ export function scoreReply(input: ScoreInput): number {
 
   return Math.max(0, Math.min(100, score));
 }
-

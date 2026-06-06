@@ -4,4 +4,3 @@ export type ReplyVerdict = {
   text: string;
   element: HTMLElement;
 };
-

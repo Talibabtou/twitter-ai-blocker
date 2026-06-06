@@ -3,4 +3,3 @@ export default defineBackground(() => {
     console.info('Twitter AI Blocker installed');
   });
 });
-
